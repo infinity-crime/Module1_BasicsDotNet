@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1_BasicsDotNet", "Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_BasicSyntax", "2_BasicSyntax\2_BasicSyntax.csproj", "{4B71AD98-6DD5-494D-8045-0B07989FB324}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_ConsoleCalculator", "3_ConsoleCalculator\3_ConsoleCalculator.csproj", "{5D8BB878-3CC8-4712-B857-D9E5D883268E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4B71AD98-6DD5-494D-8045-0B07989FB324}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B71AD98-6DD5-494D-8045-0B07989FB324}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B71AD98-6DD5-494D-8045-0B07989FB324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8BB878-3CC8-4712-B857-D9E5D883268E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8BB878-3CC8-4712-B857-D9E5D883268E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8BB878-3CC8-4712-B857-D9E5D883268E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8BB878-3CC8-4712-B857-D9E5D883268E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
