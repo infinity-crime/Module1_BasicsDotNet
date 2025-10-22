@@ -31,29 +31,6 @@ namespace _4_Collections
             return res;
         }
 
-        static int FindMaximum(int[] numbers)
-        {
-            return FindMax(numbers, 0);
-        }
-
-        /*
-        так как массив маленький, используем рекурсию (при огромных размерах -> переполнение стека)
-        как минимум на 1 вызов в стеке тратится 12-16 байт => если свыше 70к чисел, то вызовет переполнение
-        */
-        static int FindMax(int[] numbers, int index, int currentMax = 0) 
-        {
-            if(index == 0)
-                currentMax = numbers[0];
-
-            if (index == numbers.Length) 
-            {
-                return currentMax;
-            }
-            else
-            {
-                currentMax = Math.Max(currentMax, numbers[index]);
-                return FindMax(numbers, index + 1, currentMax);
-            }
-        }
+        static int FindMaximum(int[] numbers) => numbers.Max();
     }
 }
